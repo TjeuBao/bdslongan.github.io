@@ -81,6 +81,12 @@ p.sdt{
     color: red;
     font-size: 18px;
 }
+.space{
+	background-color:green;
+	width:100%;
+	height:48px;
+    position: absolute;
+}
 /*menu*/
 ul.menu-top-item{
 	background-color:green;
