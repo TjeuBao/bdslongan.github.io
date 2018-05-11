@@ -18,6 +18,7 @@ ul > li{
 }
 .container{
 	padding:25px;
+	padding-top:0;
 }
 /*banner*/
 .banner{
@@ -87,7 +88,7 @@ ul.menu-top-item{
 }
 ul.menu-top-item > li{
 	float: left;
-    min-width: 105.4px;
+    min-width: 8%;
     text-align: center;
 	border-left:1px solid white;
 	background-color: green;
@@ -105,7 +106,7 @@ a.danhmuc1 > img{
     top: 5px;
 }
 ul.danhmucsp{
-    position: absolute;
+    position: relative;
     text-align: left;
 }
 ul.menu-top-item > li:first-child{
@@ -125,7 +126,7 @@ a.top-item1{
 }
 
 .menu{
-    
+    height:500px;
     position: relative;
     width: 100%;
     z-index: 999;
@@ -144,29 +145,40 @@ a.danhmuc1:hover{
 	color: aliceblue;
 }
 .slider{
-    position: absolute;
-    top: 49px;
-    right: 120px;
+    margin-right: 35px;
+    width: 77.9%;
+    display: inline-block;
 }
 .slider > img{
-    width: 986px;
-    height: 404px;
+    width: 96.3%;
+    height: 405px;
+    margin: 1px;
 }
 
 /*content*/
 .container{
-    margin: 0 60px;
-    margin-top: 456px;
+   margin: 0 auto;
+}
+.welcome{
+    margin: 0 auto;
+    text-align: center;
 }
 /*banner-qc*/
 .left-gioi-thieu{
     float: left;
-	width:50%;
+    width: 54%;
+    text-align: left;
+	padding-left: 50px;
 }
 .right-gioi-thieu{
 	display:inline-block;
-	width:46%;
+	width: 35%;
+    margin-left: 35px;
 }
+.right-gioi-thieu > img{
+	width:100%;
+}
+
 p.left-gt1{
 	font-family: myFont5;
     font-size: 57px;
@@ -179,11 +191,13 @@ p.left-gt2{
     text-transform: uppercase;
     color: #d6141c;
     margin-top: 10px;
+	text-align: left;
 }
 p.left-gt3{
 	color: #39464F;
 	margin-top: 25px;
     font-size: 21px;
+	text-align: left;
 }
 p.left-gt4{
 	margin-top: 20px;
@@ -198,9 +212,11 @@ p.left-gt4{
     border: 2px solid green;
     border-radius: 18px;
     height: 45px;
+	margin:0 auto;
     line-height: 50px;
-    margin-top: 40px;
+    margin-top: 80px;
     position: relative;
+	width:90%;
 }
 img.homie{
 	float: left;
@@ -236,6 +252,9 @@ img.xemthem-img{
     float: right;
     padding: 0 18px;
 	color: #333333;
+	font-size:18px;
+    position: relative;
+    bottom: 2px;
 }
 .tas-bar-1 > a:hover{
 	color:red;
@@ -243,6 +262,7 @@ img.xemthem-img{
 .tas-bar-2{
     margin: 35px 0;
     padding: 0 5px;
+	text-align:center;
 }
 .tas-item{
 	display: inline-block;
@@ -250,6 +270,7 @@ img.xemthem-img{
     padding: 8px;
     text-align: center;
 	margin: 0 12px;
+	width:27%;
 }
 .tas-item-2{
 	display: inline-block;
@@ -257,6 +278,7 @@ img.xemthem-img{
     padding: 8px;
     text-align: center;
 	margin:15px 10px;
+	width:20%;
 }
 p.tas-item1{
 	color: black;
@@ -273,10 +295,10 @@ p.tas-item1 > span{
 	color:red;
 }
 .tas-item > img{
-    width: 345px;
+    width: 100%;
 }
 .tas-item-2 > img{
-    width:250px;
+    width: 100%;
 }
 /*zz*/
 .info-why-is-me{
@@ -431,8 +453,12 @@ p.kh-noi-dung-cn{
 }
 .tt-item{
     display: inline-block;
-    width: 33%;
-	text-align: left;
+    width: 30%;
+	text-align: center;
+}
+.tt-item > p{
+    text-align: left;
+	overflow:hidden;
 }
 .tt-item > img{
 	padding: 8px;
@@ -448,7 +474,7 @@ p.kh-noi-dung-cn{
     font-weight: bold;
     border-left: 4px solid green;
     margin: 10px 0;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 .tt-item > p.tt-p2{
 	line-height: 20px;
@@ -463,6 +489,10 @@ p.kh-noi-dung-cn{
     padding: 25px 65px 35px;
     position: relative;
     background-color: #ededed;
+}
+.dich-vu > img{
+	display:inherit;
+	margin:0 auto;
 }
 .tieu-de-tin-tuc{
 	font-family: myFont3;
