@@ -16,54 +16,62 @@ ul{
 ul > li{
 	list-style-type:none;
 }
+.vb-container{
+	position:relative;
+	margin:0 auto;
+	width:1360px;
+}
 .container{
-	padding:25px;
-	padding-top:0;
+	margin: 0 auto;
+	padding: 0 65px;
 }
 /*banner*/
 .banner{
 	width:100%;
-	height:150px;
+	height:130px;
 }
 .banner > img{
 	width:100%;
 	height:100%;
 }
 .header{
-	padding:7px;
+    padding: 0 10px;
+    text-align: center;
 }
 .logo{
+	position:relative;
 	display:inline-block;
-	width:20%;
-	padding-left:35px;
 }
 .logo > a > img{
-	width:232px;
+	width:175px;
 	height:86px;
 }
 .thongtin{
-	display:inline-block;
-	width:55%;
-	text-align:center;
+	display: inline-block;
+    width: 55%;
+    text-align: center;
+    padding: 15px 0;
 }
 p.ten-thongtin{
     font-size: 40px;
     color: #d6141c;
     font-weight: bold;
     font-family: sans-serif;
-    background: -webkit-linear-gradient(#f00, #870d0d);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(#f00, #e00e0e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 10px;
 }
 p.ll-thongtin{
-    font-size: 20px;
+    font-size: 16px;
     color: black;
     font-weight: bold;
     font-family: sans-serif;
-    margin-bottom: 15px;
+    margin-bottom: 2px;
 }
 .info-top{
+    position: relative;
+    bottom: 15px;
 	display:inline-block;
 	width: 20%;
     padding-left: 15px;
@@ -72,6 +80,7 @@ p.ll-thongtin{
 	width:50px;
 }
 .info-top > span{
+    font-family: sans-serif;
 	font-weight: bold;
     position: relative;
     bottom: 10px;
@@ -84,7 +93,7 @@ p.sdt{
 .space{
 	background-color:green;
 	width:100%;
-	height:48px;
+	height:47px;
     position: absolute;
 }
 /*menu*/
@@ -94,16 +103,18 @@ ul.menu-top-item{
 }
 ul.menu-top-item > li{
 	float: left;
-    min-width: 8%;
+    min-width: 95px;
     text-align: center;
 	border-left:1px solid white;
 	background-color: green;
 }
 a.top-item1 > img{
-	width: 20px;
+	width: 65px;
     float: right;
-    margin-left: 40px;
-    padding-right: 10px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 23px;
 }
 a.danhmuc1 > img{
 	margin-right: 8px;
@@ -129,6 +140,8 @@ a.top-item1{
     display: block;
     padding: 15px 8px;
     font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 .menu{
@@ -136,7 +149,6 @@ a.top-item1{
     position: relative;
     width: 100%;
     z-index: 999;
-	padding-left: 60px;
 }
 a.danhmuc1{
 	font-family: "glober",sans-serif;
@@ -146,28 +158,26 @@ a.danhmuc1{
     font-weight: bold;
     background-color: silver;
     border-top: 1px solid snow;
+	font-size: 15px;
 }
 a.danhmuc1:hover{
-	color: aliceblue;
+	color: darkslategrey;
 }
 .slider{
-    margin-right: 35px;
-    width: 77.9%;
     display: inline-block;
 }
 .slider > img{
-    width: 96.3%;
-    height: 405px;
+    width: 975px;
+    height: 395px;
     margin: 1px;
 }
 
 /*content*/
-.container{
-   margin: 0 auto;
-}
 .welcome{
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 /*banner-qc*/
 .left-gioi-thieu{
@@ -192,12 +202,13 @@ p.left-gt1{
     line-height: 57px;
 }
 p.left-gt2{
-	font-family: myFont2;
+    font-family: sans-serif;
     font-size: 34px;
     text-transform: uppercase;
     color: #d6141c;
     margin-top: 10px;
-	text-align: left;
+    text-align: left;
+    font-weight: bold;
 }
 p.left-gt3{
 	color: #39464F;
@@ -215,59 +226,66 @@ p.left-gt4{
 }
 /*tas1*/
 .tas-bar-1{
-    border: 2px solid green;
-    border-radius: 18px;
-    height: 45px;
-	margin:0 auto;
-    line-height: 50px;
-    margin-top: 80px;
     position: relative;
-	width:90%;
+	border: 2px solid green;
+    border-radius: 18px;
+    height: 35px;
+    margin: 0 auto;
+    line-height: 50px;
+    margin-top: 35px; 
+    width: 98%;
 }
 img.homie{
 	float: left;
-    width: 55px;
-    height: 45px;
-	border-right: 1px solid aliceblue;
+    width: 25px;
+    height: 23px;
+    position: absolute;
+    top: 5px;
     margin-right: 15px;
+    left: 8px;
+    border-right: 1px solid #fff;
+    padding-right: 7px;
 }
-.tas-bar-1 > span{
-	float: left;
+.tieu-de-tas-bar > span{
+    float: left;
     background-color: green;
-    line-height: 46px;
-    min-width: 278px;
+    line-height: 35px;
+    min-width: 284px;
     color: white;
     font-weight: bold;
     font-family: sans-serif;
-    border-radius: 15px 0 0 15px;
+    border-radius: 12px 0 0 12px;
+    font-size: 20px;
+    padding-left: 50px;
 }
-.tas-bar-1 > span::after{
+.tieu-de-tas-bar > span::after{
 	content: " ";
     border: solid;
-    border-width: 23px;
+    border-width: 18px;
     border-color: transparent transparent transparent green;
     position: absolute;
-	left: 278px;
+	left: 333px;
 }
 img.xemthem-img{
 	float: right;
 	width:15px;
-	margin-top: 16px;
+	margin-top: 10px;
 }
-.tas-bar-1 > a{
+.tieu-de-tas-bar > a{
     float: right;
-    padding: 0 18px;
-	color: #333333;
-	font-size:18px;
+    padding: 0 18px 0 10px;
+    color: #333333;
+    font-size: 15px;
     position: relative;
-    bottom: 2px;
+    bottom: 8px;
+    text-transform: uppercase;
 }
-.tas-bar-1 > a:hover{
+.tieu-de-tas-bar > a:hover{
 	color:red;
 }
 .tas-bar-2{
-    margin: 35px 0;
-    padding: 0 5px;
+    position: relative;
+    margin: 20px 0 30px;
 	text-align:center;
 }
 .tas-item{
@@ -275,8 +293,8 @@ img.xemthem-img{
     border: 1px solid #999;
     padding: 8px;
     text-align: center;
-	margin: 0 12px;
-	width:27%;
+	margin: 0 10px;
+    width: 30%;
 }
 .tas-item-2{
 	display: inline-block;
@@ -284,12 +302,13 @@ img.xemthem-img{
     padding: 8px;
     text-align: center;
 	margin:15px 10px;
-	width:20%;
+	width: 21.5%;
 }
 p.tas-item1{
 	color: black;
     font-size: 18px;
     margin: 10px;
+    font-weight: bold;
 }
 p.tas-item1 > a{
 	color:black;
@@ -304,6 +323,9 @@ p.tas-item1 > span{
     width: 100%;
 }
 .tas-item-2 > img{
+    width: 100%;
+}
+.banner-middle > a > img{
     width: 100%;
 }
 /*zz*/
@@ -453,7 +475,7 @@ p.kh-noi-dung-cn{
 }
 /*tin-tuc*/
 .dich-vu{
-	margin: 0 15px 20px;
+	margin: 0 0 20px;
     text-align: center;
     position: relative;
 }
@@ -481,6 +503,7 @@ p.kh-noi-dung-cn{
     border-left: 4px solid green;
     margin: 10px 0;
     padding-left: 10px;
+	margin-left:5px;
 }
 .tt-item > p.tt-p2{
 	line-height: 20px;
@@ -488,6 +511,8 @@ p.kh-noi-dung-cn{
     font-size: 15px;
     color: #000;
     font-weight: normal;
+	margin-left: 5px;
+    max-width: 96%;
 }
 
 /*dv*/
@@ -501,7 +526,7 @@ p.kh-noi-dung-cn{
 	margin:0 auto;
 }
 .tieu-de-tin-tuc{
-	font-family: myFont3;
+	font-family: sans-serif;
     font-size: 28px;
     color: #2c2c2c;
     text-transform: uppercase;
