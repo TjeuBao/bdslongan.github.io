@@ -181,15 +181,14 @@ a.danhmuc1:hover{
 }
 /*banner-qc*/
 .left-gioi-thieu{
-    float: left;
+    display:inline-block;
     width: 54%;
     text-align: left;
-	padding-left: 50px;
 }
 .right-gioi-thieu{
 	display:inline-block;
 	width: 35%;
-    margin-left: 35px;
+    margin-left: 60px;
 }
 .right-gioi-thieu > img{
 	width:100%;
@@ -750,7 +749,7 @@ div.icon-qc-3{
 p.footer-pll{
 	font-size:14px;
 	color:#fff;
-	margin-top:25px;
+	margin-top:18px;
 }
 a.footer-all{
 	color:#fff;
